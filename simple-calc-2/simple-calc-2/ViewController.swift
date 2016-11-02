@@ -65,7 +65,7 @@ class ViewController: UIViewController {
             calculation /= inputNum
         case "%":
             calculation = calculation % inputNum
-        case "=", "count":
+        case "=", "count", "fact":
             calculation = inputNum
         default:
             break

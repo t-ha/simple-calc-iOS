@@ -35,6 +35,13 @@ class HistoryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        if segue.identifier == "toCalc" {
+            let svc = segue.destination as! ViewController
+            svc.history = calcHistory
+        }
+    }
+    
 
     /*
     // MARK: - Navigation

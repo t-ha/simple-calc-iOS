@@ -363,7 +363,7 @@
                                     <navigationItem title="History" id="14Y-Kv-TQk">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Rac-dD-iED">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="de2-6t-E8S"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" identifier="toCalc" id="de2-6t-E8S"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
