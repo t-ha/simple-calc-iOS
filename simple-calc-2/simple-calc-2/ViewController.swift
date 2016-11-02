@@ -28,9 +28,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // segueueue
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
-        print("sdfdsfsd")
         if segue.identifier == "toHistory" {
             let svc = segue.destination as! HistoryViewController
             svc.calcHistory = history
